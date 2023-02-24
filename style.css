@@ -164,3 +164,30 @@ body {
     width: 1000px;
     margin-left: -500px;
 }
+
+.applicateur {
+    margin-top: 20px;
+    margin-bottom: 100px;
+    font-weight: 400;
+    background-color: white;
+    width: 100%;
+    font-family: 'Montserrat';
+    text-align: left;
+    justify-content: justify;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 40px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background-image: url(./ressources/picture_as_pdf_FILL0_wght400_GRAD0_opsz48.svg);
+    background-color: #eef4dd;
+    background-repeat: no-repeat;
+    background-size: 40px;
+    background-position-x: left;
+    background-position-y: center;
+    background-attachment: local;
+}
+
+.applicateur a:visited, .applicateur a:hover, .applicateur a:active, .applicateur a:link {
+    text-decoration: none;
+    color: black;
+}
