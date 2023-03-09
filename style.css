@@ -15,6 +15,7 @@ header{
 
 body {
     background-color: #faf0ff;
+    min-width: 1400px;
 }
 
 .inner_header{
@@ -87,7 +88,7 @@ body {
 
 .tableau {
     width: 100%;
-    max-width: 1320px;
+    min-width: 1320px;
     margin: 0 auto;
     box-sizing: border-box;
     font-family: 'Montserrat';
@@ -97,7 +98,7 @@ body {
     display: flex;
     flex-direction: row;
     align-items: center;
-    width: 1000px;
+    width: 1100px;
     min-height: 190px;
     margin: 60px auto 60px;
     padding: 0;
@@ -124,24 +125,12 @@ body {
 }
 
 .tableau p:first-child {
-    font-size: 20px;
+    font-size: 16px;
     line-height: 26px;
     font-weight: 700;
     text-align: center;
     white-space: nowrap;
     padding-bottom: 5%;
-}
-
-.tableau p:last-child {
-    font-size: 16px;
-    line-height: 22px;
-    font-weight: 400;
-    color: #000;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 44px;
-    text-align: center;
 }
 .content2{
     margin-top: 20px;
@@ -204,7 +193,7 @@ footer{
     padding: 30px 0;
 }
 
-.footer_coo{
+.footer_coo, .footer_mail{
     padding-right: 40px;
 }
 
@@ -214,6 +203,7 @@ footer .footer_title{
     font-weight: 700;
     letter-spacing: .673px;
     margin-bottom: 15px;
+    text-align: center;
 }
 
 footer p{
