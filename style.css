@@ -135,6 +135,7 @@ body {
 .content2{
     margin-top: 20px;
 }
+
 .contenant {
         background-image: url(./ressources/slogan_fond.png);
         background-repeat: repeat;
@@ -153,6 +154,51 @@ body {
     width: 1000px;
     margin-left: -500px;
 }
+
+.content3{
+    margin-top: 20px;
+}
+
+.contenant2 {
+        background-image: url(./ressources/slogan_fond.png);
+        background-repeat: repeat;
+        display: inline-block;
+        position: relative;
+        height: 550px;
+        width: 100%;
+        margin: 0 auto;
+}
+
+.contenant2 #contenant_img2{
+    position: absolute;
+    left: 50%;
+    top: 20px;
+    width: 1000px;
+    margin-left: -500px;
+}
+
+.content4{
+    margin-top: 20px;
+}
+
+.contenant3 {
+        background-image: url(./ressources/slogan_fond.png);
+        background-repeat: repeat;
+        display: inline-block;
+        position: relative;
+        height: 550px;
+        width: 100%;
+        margin: 0 auto;
+}
+
+.contenant3 #contenant_img3{
+    position: absolute;
+    left: 50%;
+    top: 20px;
+    width: 1000px;
+    margin-left: -500px;
+}
+
 
 .applicateur {
     margin-top: 20px;
