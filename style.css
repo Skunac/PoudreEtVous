@@ -172,7 +172,7 @@ body {
 .contenant2 #contenant_img2{
     position: absolute;
     left: 50%;
-    top: 20px;
+    top: 45px;
     width: 1000px;
     margin-left: -500px;
 }
@@ -194,7 +194,7 @@ body {
 .contenant3 #contenant_img3{
     position: absolute;
     left: 50%;
-    top: 20px;
+    top: 45px;
     width: 1000px;
     margin-left: -500px;
 }
@@ -232,6 +232,7 @@ footer{
     align-items: center;
     justify-content: center;
     font-family: 'Montserrat';
+    margin-top: 350px;
 }
 
 .footer_content{
@@ -249,7 +250,6 @@ footer .footer_title{
     font-weight: 700;
     letter-spacing: .673px;
     margin-bottom: 15px;
-    text-align: center;
 }
 
 footer p{
