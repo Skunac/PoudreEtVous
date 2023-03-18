@@ -83,7 +83,7 @@ body {
     left: 50%;
     height: 550px;
     width: 1100px;
-    margin-left: -500px;
+    margin-left: -550px;
 }
 
 .tableau {
@@ -132,73 +132,6 @@ body {
     white-space: nowrap;
     padding-bottom: 5%;
 }
-.content2{
-    margin-top: 20px;
-}
-
-.contenant {
-        background-image: url(./ressources/slogan_fond.png);
-        background-repeat: repeat;
-        display: inline-block;
-        position: relative;
-        height: 550px;
-        width: 100%;
-        margin: 0 auto;
-}
-
-.contenant #contenant_img{
-    position: absolute;
-    left: 50%;
-    top: 90px;
-    height: 350px;
-    width: 1000px;
-    margin-left: -500px;
-}
-
-.content3{
-    margin-top: 20px;
-}
-
-.contenant2 {
-        background-image: url(./ressources/slogan_fond.png);
-        background-repeat: repeat;
-        display: inline-block;
-        position: relative;
-        height: 550px;
-        width: 100%;
-        margin: 0 auto;
-}
-
-.contenant2 #contenant_img2{
-    position: absolute;
-    left: 50%;
-    top: 45px;
-    width: 1000px;
-    margin-left: -500px;
-}
-
-.content4{
-    margin-top: 20px;
-}
-
-.contenant3 {
-        background-image: url(./ressources/slogan_fond.png);
-        background-repeat: repeat;
-        display: inline-block;
-        position: relative;
-        height: 550px;
-        width: 100%;
-        margin: 0 auto;
-}
-
-.contenant3 #contenant_img3{
-    position: absolute;
-    left: 50%;
-    top: 45px;
-    width: 1000px;
-    margin-left: -500px;
-}
-
 
 .applicateur {
     margin-top: 20px;
@@ -261,4 +194,98 @@ footer p{
 
 footer .footer_rs a:not(:last-child){
     margin-right: 30px;
+}
+
+.custom-slider { display: none; }
+.slide-container {
+    background-image: url(./ressources/slogan_fond.png);
+    background-repeat: repeat;
+    display: inline-block;
+    position: relative;
+    height: 550px;
+    width: 100%;
+    margin: 0 auto;
+}
+.prev, .next {
+  cursor: pointer;
+  position: absolute;        
+  top: 50%;
+  transform: translateY(-50%);
+  width: 60px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  color: white;
+  font-size: 30px;
+  background-color: rgba(0,0,0,0);
+  transition: background-color 0.6s ease;
+}
+.prev{ 
+    left: 15px; 
+    background-color: #eef4dd;
+}
+.next { 
+    right: 15px; 
+    background-color: #eef4dd;
+}
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.5);
+}
+.slide-text {
+  position: absolute;
+  color: #ffffff;
+  font-size: 15px;
+  padding: 15px;
+  bottom: 15px;
+  width: 100%;
+  text-align: center;
+}
+.slide-index {
+  color: #ffffff;
+  font-size: 13px;
+  padding: 15px;
+  position: absolute;
+  top: 0;
+}
+
+.slide-img{ 
+    position: absolute;
+    top: 100px;
+    height: 350px;
+    left: 50%;
+    margin-left: -520px;
+}
+
+.slide-img2{ 
+    position: absolute;
+    height: 550px;
+    left: 50%;
+    margin-left: -550px;
+}
+ 
+.slide-dot{ 
+    position: relative;
+    text-align: center;
+    top: 530px;
+}
+.dot {
+  cursor: pointer;
+  height: 10px;
+  width: 10px;
+  margin: 0 2px;
+  background-color: #999999;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+.active, .dot:hover { background-color: #111111; }
+.fade {
+  animation-name: fade;
+  animation-duration: 1s;
+}
+@keyframes fade {
+  from {opacity: 0} 
+  to {opacity: 1}
 }

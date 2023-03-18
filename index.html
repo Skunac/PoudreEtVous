@@ -47,23 +47,25 @@
                 </li>
             </ul>
         </div>
-        <div class="content2">
-            <div class="contenant">
-                    <img id="contenant_img" src="./ressources/contenant_b.png" alt="contenant img">
+        <div class="slide-container">
+            <div class="custom-slider fade">
+              <img class="slide-img" src="./ressources/contenant_b.png">
             </div>
-        </div>
+            <div class="custom-slider fade">
+              <img class="slide-img2" src="./ressources/slide2.png">
+            </div>
+            <div class="custom-slider fade">
+              <img class="slide-img2" src="./ressources/slide3.png">
+            </div>
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            <div class="slide-dot">
+                <span class="dot" onclick="currentSlide(1)"></span> 
+                <span class="dot" onclick="currentSlide(2)"></span> 
+                <span class="dot" onclick="currentSlide(3)"></span> 
+              </div>
+          </div>
 
-        <div class="content3">
-            <div class="contenant2">
-                    <img id="contenant_img2" src="./ressources/avant_apres.png" alt="avant apres img">
-            </div>
-        </div>
-
-        <div class="content4">
-            <div class="contenant3">
-                    <img id="contenant_img3" src="./ressources/avant_apres_dos.png" alt="avant apres img">
-            </div>
-        </div>
 
         <div class="applicateur">
             <p><a href="./ressources/Applicateur.pdf">Cliquez ici pour obtenir le guide d'application</a></p>
@@ -94,5 +96,6 @@
         </div>
     </footer>
     
+<script src="script.js"></script>
 </body>
 </html>
